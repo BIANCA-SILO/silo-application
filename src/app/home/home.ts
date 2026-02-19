@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FruitShakes } from '../fruit-shakes/fruit-shakes';
+import { Desserts } from '../desserts/desserts';
 
 @Component({
   selector: 'app-home',
@@ -7,5 +9,10 @@ import { Component } from '@angular/core';
   styleUrl: './home.css',
 })
 export class Home {
+Home = [
 
+{Component: FruitShakes}, 
+{Component: Desserts}
+
+]
 }
