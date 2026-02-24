@@ -7,7 +7,7 @@ import { Component, signal } from '@angular/core';
   styleUrl: './desserts.css',
 })
 export class Desserts {
-Desserts = signal([
+dessert = signal([
 
 {name:'Strawberry Cheesecake', Ingredients:'full-fat cream cheese, sugar, eggs, sour cream, fresh or frozen strawberries, butter, vanilla extract.', Calories:'320'}, 
 {name:'Carrot Cake', Ingredients:'grated carrots, all-purpose flour, vegetable oil, eggs, a combination of white and brown sugars', Calories:'350'},

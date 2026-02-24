@@ -1,10 +1,8 @@
 import { Component, signal } from '@angular/core';
-import { FruitShakes } from '../fruit-shakes/fruit-shakes';
-import { Desserts } from '../desserts/desserts';
 
 @Component({
   selector: 'app-home',
-  imports: [FruitShakes, Desserts],
+  imports: [],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

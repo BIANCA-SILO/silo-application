@@ -1,6 +1,7 @@
 <h1>Fruit Shakes</h1>
 
-@for (shake of shakes; track shake.name)
+@for (shake of shake(); track shake){
 <p>Name: {{shake.name}}</p>
 <p>Ingredient: {{shake.Ingredients}}</p>
 <p>Calories: {{shake.Calories}}</p>
+}

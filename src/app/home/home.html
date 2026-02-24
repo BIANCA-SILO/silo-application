@@ -1,11 +1,6 @@
-<section class="home-section">
-<h1>Home</h1>
-<div class="card-grid">
-    @for (shake of shakes; track shake.name){
-        <div class="card">
-<span class=""></span>            
-        </div>
-    }
-</div>
-</section>
+<p>Home</p>
+
+@for (home of home(); track home){
+<p>Name: {{home.name}}</p>
+<p>Description: {{home.description}}</p>}
 
